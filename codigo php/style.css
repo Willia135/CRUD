@@ -1,0 +1,118 @@
+
+body {
+    background-color: #1a1a1a;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #e60000;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #2d2d2d;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+label {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    color: #f4f4f4;
+    text-align: left;
+    width: 100%;
+}
+
+input, button {
+    border-radius: 30px;
+    margin: 18px 0;
+    padding: 8px 15px;
+    width: 100%;
+    font-size: 1rem;
+    background-color: #333;
+    border: 1px solid #444;
+    color: white;
+}
+
+input:focus, button:focus {
+    outline: none;
+    border-color: #e60000;
+}
+
+button {
+    background-color: #e60000;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #cc0000;
+}
+
+table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #444;
+    font-size: 1.1rem;
+}
+
+th {
+    background-color: #1a1a1a;
+    color: #e60000;
+}
+
+td {
+    background-color: #333;
+    color: white;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.edit-btn, .delete-btn {
+    border: none;
+    padding: 8px 12px;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.edit-btn {
+    background-color: #f0ad4e;
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #ec971f;
+}
+
+.delete-btn {
+    background-color: #d9534f;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #c9302c;
+}
